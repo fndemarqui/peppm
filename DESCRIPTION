@@ -4,7 +4,6 @@ Title: Piecewise Exponential Distribution with Random Time Grids
 Version: 0.0.1
 Date: 2019-07-17
 Authors@R: person(given = "Fabio", family = "Demarqui", email = "fndemarqui@est.ufmg.br", role = c("aut", "cre"), comment = c(ORCID = "0000-0001-9236-1986"))
-Author: Fabio Demarqui [aut, cre]
 Maintainer: Fabio Demarqui <fndemarqui@est.ufmg.br>
 Description: Fits the Piecewise Exponential distribution with random time grids using the clustering structure of the Product Partition Models. Details of the implemented model can be found in <doi.org/10.1007/s10985-008-9086-0>.
 License: GPL (>= 2)
@@ -16,4 +15,4 @@ LinkingTo: Rcpp
 RoxygenNote: 7.1.0
 Suggests: testthat
 NeedsCompilation: yes
-Packaged: 2019-07-20 18:10:35 UTC; fndemarqui
+
