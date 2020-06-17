@@ -23,6 +23,8 @@ devtools::build_manual()
 devtools::release_checks()
 devtools::spell_check()
 
+devtools::submit_cran()
+
 
 git add .
 git commit -m "cran submission"
