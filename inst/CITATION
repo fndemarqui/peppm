@@ -1,0 +1,16 @@
+citHeader("To cite the R package 'peppm' in publications use:")  
+
+citEntry(entry   = "Article",
+         title   = "Estimating the grid of time-points for the piecewise exponential model",
+         journal = "Lifeime Data Analysis",
+         volume  = "14	",
+         number  = "3",
+         year    = "2008",
+         author  = personList(
+           person(given="Fabio N.", family="Demarqui"),
+           person(given="Rosangela H.", family="Loschi"),
+           person(given="Enrico A.", family="Colosimo")
+           ),
+         textVersion = "DEMARQUI et al. (2008). Estimating the grid of time-points for the piecewise exponential model. Lifetime Data Analysis 14, 333-356."
+         )
+
