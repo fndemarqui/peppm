@@ -7,13 +7,19 @@
 findInt(time, tgrid)
 }
 \arguments{
-\item{time}{vector of times}
+\item{time}{vector of times.}
 
-\item{tgrid}{time grid}
+\item{tgrid}{time grid of the PE distribution.}
 }
 \value{
-indicator function of times's intervals
+indicator of times's intervals
 }
 \description{
 Function to identify the times' intervals
+}
+\examples{
+data(telecom)
+tgrid <- with(telecom, timeGrid(time, status))
+tgrid
+findInt(telecom$time, tgrid) 
 }

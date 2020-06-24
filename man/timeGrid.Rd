@@ -2,7 +2,7 @@
 % Please edit documentation in R/pexp.R
 \name{timeGrid}
 \alias{timeGrid}
-\title{Time grid}
+\title{Time grid for the PE distribution}
 \usage{
 timeGrid(time, status, n.int = NULL)
 }
@@ -15,8 +15,15 @@ timeGrid(time, status, n.int = NULL)
 set to be equal to the number of distinct observed failure times.}
 }
 \value{
-Time grid.
+the time grid needed to specify the PE distribution.
 }
 \description{
-Time grid
+This function make use of the observed times and failure indicators to create a time grid for the PE distribution.
+}
+\examples{
+data(telecom)
+tgrid1 <- with(telecom, timeGrid(time, status))
+tgrid1
+tgrid2 <- with(telecom, timeGrid(time, status, n.int = 4))
+tgrid2
 }

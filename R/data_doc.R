@@ -18,7 +18,7 @@
 #' fit3 <- with(telecom, peppm(time, status, cohesion=3, nburnin=0, nlag=1, npost=100))
 #' fit4 <- with(telecom, peppm(time, status, cohesion=4, nburnin=0, nlag=1, npost=100))
 #' # time grid associated with the first line of the matrix U:
-#' tgrid <- with(fit1, getGrid(U[1,], ftgrid)) 
+#' 
 #' @references  Piecewise Exponential Estimator for the Survival Function. J. S. Kim and F. Proschan.
 #' IEEE TRANSACTIONS ON RELIABILITY, VOL. 40, NO. 2, 1991.
 #' 

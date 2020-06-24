@@ -44,3 +44,17 @@ Posterior sample of the number of intervals, failure rates, the auxiliary vector
 \description{
 Piecewise Exponential Product Partition Model
 }
+\examples{
+# Small chain used here due to time constraints. 
+data(telecom)
+
+# Prior cohesion 1:
+fit1 <- with(telecom, peppm(time, status, cohesion=1, nburnin = 0, nlag = 1, npost = 100))
+# Prior cohesion 2:
+fit2 <- with(telecom, peppm(time, status, cohesion=2, nburnin = 0, nlag = 1, npost = 100))
+# Prior cohesion 3:
+fit3 <- with(telecom, peppm(time, status, cohesion=3, nburnin = 0, nlag = 1, npost = 100))
+# Prior cohesion 4:
+fit4 <- with(telecom, peppm(time, status, cohesion=4, nburnin = 0, nlag = 1, npost = 100))  
+   
+}

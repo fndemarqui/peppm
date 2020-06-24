@@ -1,11 +1,11 @@
 Package: peppm
 Type: Package
-Title: Piecewise Exponential Distribution with Random Time Grids
+Title: Piecewise exponential distribution with random time grids
 Version: 0.0.1
 Date: 2020-06-17
 Authors@R: person(given = "Fabio", family = "Demarqui", email = "fndemarqui@est.ufmg.br", role = c("aut", "cre"), comment = c(ORCID = "0000-0001-9236-1986"))
 Maintainer: Fabio Demarqui <fndemarqui@est.ufmg.br>
-Description: Fits the Piecewise Exponential distribution with random time grids using the clustering structure of the Product Partition Models. Details of the implemented model can be found in <doi.org/10.1007/s10985-008-9086-0>.
+Description: Fits the Piecewise Exponential distribution with random time grids using the clustering structure of the Product Partition Models. Details of the implemented model can be found in Demarqui et al. (2008) <doi:10.1007/s10985-008-9086-0>.
 License: GPL (>= 2)
 URL: https://github.com/fndemarqui/peppm
 BugReports: https://github.com/fndemarqui/peppm/issues

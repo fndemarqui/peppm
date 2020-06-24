@@ -14,6 +14,19 @@
 #' @param npost desired posterior sample size
 #' @param nlag number of jumps to eliminate autocorrelation of the chain.
 #' @return Posterior sample of the number of intervals, failure rates, the auxiliary vector U, and the logarithm of the prior predictive distribution (log data factor).
+#' @examples 
+#' # Small chain used here due to time constraints. 
+#' data(telecom)
+#' 
+#' # Prior cohesion 1:
+#' fit1 <- with(telecom, peppm(time, status, cohesion=1, nburnin = 0, nlag = 1, npost = 100))
+#' # Prior cohesion 2:
+#' fit2 <- with(telecom, peppm(time, status, cohesion=2, nburnin = 0, nlag = 1, npost = 100))
+#' # Prior cohesion 3:
+#' fit3 <- with(telecom, peppm(time, status, cohesion=3, nburnin = 0, nlag = 1, npost = 100))
+#' # Prior cohesion 4:
+#' fit4 <- with(telecom, peppm(time, status, cohesion=4, nburnin = 0, nlag = 1, npost = 100))  
+#'    
 
 peppm <- function(time, status, a_rates=1, b_rates=1, cohesion=1, 
                   a_beta=1, b_beta=1, nburnin=10000, npost=20000, nlag=10){
