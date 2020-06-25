@@ -7,4 +7,4 @@
 
 0 errors | 0 warnings | 0 note
 
-* This is the second submission of a new release. All requests associated with the previous submission were done.
+* This is a resubmission of a new release. All fixes requested in the previous submission were done.
